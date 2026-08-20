@@ -112,8 +112,8 @@
   .step p { color:var(--muted); font-size:14.5px; }
 
   /* pricing */
-  .plans { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:36px; max-width:760px; }
-  @media (max-width:640px){ .plans{grid-template-columns:1fr;} }
+  .plans { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:36px; }
+  @media (max-width:900px){ .plans{grid-template-columns:1fr;} }
   .plan { background:var(--surface); border:1px solid var(--border); border-radius:20px; padding:26px; }
   .plan.hot { border-color:var(--accent); position:relative; }
   .plan.hot::before { content:"Most useful"; position:absolute; top:-11px; left:22px; background:var(--accent); color:#12100E; font-size:11px; font-weight:700; padding:3px 10px; border-radius:999px; }
@@ -264,11 +264,23 @@
         <div class="price">$5.99<small> / month</small></div>
         <div class="per">or $59.99 / year — two months free</div>
         <ul>
-          <li>Unlimited garments</li>
+          <li>100 garments</li>
           <li>3 outfit options every morning</li>
           <li>Laundry mode: sorted loads, run-out warnings</li>
           <li>Temperature-capped loads from care tags</li>
-          <li>Everything in Free</li>
+          <li>AI wardrobe pairing hints</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <h3>Stylist ✨</h3>
+        <div class="price">$9.99<small> / month</small></div>
+        <div class="per">or $99.99 / year — two months free</div>
+        <ul>
+          <li>Unlimited garments</li>
+          <li>Outfits composed by AI every day</li>
+          <li>A stylist's note with each outfit</li>
+          <li>AI restyle, up to 3× a day</li>
+          <li>Everything in Premium</li>
         </ul>
       </div>
     </div>
