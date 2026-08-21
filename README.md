@@ -1,6 +1,6 @@
-# Hanger — website
+# Rail — website
 
-Marketing site for the Hanger wardrobe app, published to GitHub Pages on
+Marketing site for the Rail wardrobe app, published to GitHub Pages on
 every push to `main`.
 
-Live: https://contacttaskwork-debug.github.io/hanger-site/
+Live: https://contacttaskwork-debug.github.io/rail-site/
